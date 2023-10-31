@@ -115,8 +115,7 @@ def filter_and_get_scores(resFileExp, save_scores_pathExp, full_predictions, exp
         acc.append(vqa_acc)
         if value in gt_answer:
             correct_keys.append(key)
-    
-    print(f'truth_acc: {sum(acc) / len(acc)}')
+
     print(f'acc: {len(correct_keys) / len(gt_answers)}')
 
 
@@ -137,7 +136,7 @@ def filter_and_get_scores(resFileExp, save_scores_pathExp, full_predictions, exp
 
     if epoch < 30:
         with open(save_scores_pathExp, 'w') as w:
-            cocoEval.eval.update({'truth_acc': sum(acc) / len(acc), 'acc':len(correct_keys) / len(gt_answers)})
+            cocoEval.eval.update({'acc':len(correct_keys) / len(gt_answers)})
             json.dump(cocoEval.eval, w)
 
 
