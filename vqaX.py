@@ -58,7 +58,7 @@ def load_checkpoint(ckpt_path, epoch):
 
 
 def load_pretrained():
-    model_path = 'pretrained_model/pretrain_model_14'
+    model_path = 'pretrained_model/pretrain_model_11'
     tokenizer_path = 'pretrained_model/pretrain_tokenizer_0'
     # model_path = './Reasoning/KB-VCR/nlxgpt/pretrained_model/VQA-X/nle_model_11'
     # tokenizer_path = './Reasoning/KB-VCR/nlxgpt/pretrained_model/VQA-X/nle_gpt2_tokenizer_0'
