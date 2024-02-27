@@ -1,6 +1,6 @@
-# [TIP Submission] KICNLE
+# KICNLE
 
-This repository contains the official PyTorch implementation of paper "Knowledge-Augmented Visual Question Answering with Natural Language Explanation" for Transaction on Image Processing Submission.
+This repository contains the official PyTorch implementation of paper "**Knowledge-Augmented Visual Question Answering with Natural Language Explanation**" for Transaction on Image Processing (TIP) 2024.
 
 ## Overview
 
